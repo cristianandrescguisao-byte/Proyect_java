@@ -1,2 +1,11 @@
+# Proyecto Product - Cristian Guisao
 
-Este proyecto implementa una clase Java denominada Product que representa una entidad comercial con atributos privados para ID, nombre, precio y stock, cumpliendo con los requisitos de encapsulamiento, constructores (por defecto y parametrizado), y métodos getter y setter con validaciones básicas. Para compilar el código, se debe ejecutar el comando javac com/example/*.java desde la raíz del proyecto y luego iniciar la aplicación con java com.example.Main, lo cual generará una salida en consola que muestra la verificación de atributos individuales y la representación completa de los objetos mediante el método toString().
+## Descripción
+Implementación de una clase `Product` en Java siguiendo el paradigma de Programación Orientada a Objetos (POO), incluyendo encapsulamiento, constructores y métodos especiales.
+
+## Instrucciones de Compilación y Ejecución
+Debido a que el proyecto usa una estructura de carpetas Maven, deben usarse los siguientes comandos desde la **raíz del proyecto**:
+
+1. **Compilar**:
+   ```bash
+   javac -d target/classes src/main/java/com/example/*.java
