@@ -1,13 +1,13 @@
 package com.example;
 
 public class Product {
-    // Atributos privados (Punto 1)
+ 
     private String id;
     private String name;
     private double price;
     private int stock;
 
-    // Constructor por defecto (Punto 2)
+   
     public Product() {
         this.id = "null";
         this.name = "Unknown";
@@ -15,7 +15,7 @@ public class Product {
         this.stock = 0;
     }
 
-    // Constructor parametrizado (Punto 2)
+ 
     public Product(String id, String name, double price, int stock) {
         this.id = id;
         this.name = name;
@@ -23,13 +23,12 @@ public class Product {
         this.stock = stock;
     }
 
-    // Métodos Getter (Punto 3)
+
     public String getId() { return id; }
     public String getName() { return name; }
     public double getPrice() { return price; }
     public int getStock() { return stock; }
 
-    // Métodos Setter con validación opcional (Punto 4)
     public void setId(String id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     
@@ -45,7 +44,6 @@ public class Product {
         }
     }
 
-    // Método toString (Punto 5) - Sin la etiqueta override
     public String toString() {
         return "Producto [ID: " + id + ", Nombre: " + name + ", Precio: " + price + ", Stock: " + stock + "]";
     }
